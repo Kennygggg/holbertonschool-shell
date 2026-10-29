@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Git Alias
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+
+# Git configs
+git config --global credential.helper 'cache --timeout=7200'
+git config --global user.name "Ken  Nguyen"
+git config --global user.email "kendrickbnguyen@gmail.com"
+
+# Later we need to add script to source./ for bashrc and other theme configs.
